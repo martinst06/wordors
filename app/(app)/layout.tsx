@@ -8,7 +8,7 @@ export default function AppLayout({
   children: ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen bg-gradient-to-b from-black via-zinc-950 to-black text-white">
+    <div className="flex min-h-full bg-gradient-to-b from-black via-zinc-950 to-black text-white">
       <WorkspaceSidebar />
       <div className="flex flex-1 flex-col">
         <WorkspaceTopNav />

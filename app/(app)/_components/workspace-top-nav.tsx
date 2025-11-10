@@ -8,7 +8,7 @@ const quickLinks = [
 
 export default function WorkspaceTopNav() {
   return (
-    <header className="sticky top-0 z-30 border-b border-white/5 bg-black/70 backdrop-blur">
+    <header className="sticky top-24 z-30 border-b border-white/5 bg-black/70 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
         <div>
           <h1 className="text-xl font-semibold text-white">Workspace</h1>
